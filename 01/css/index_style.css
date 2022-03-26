@@ -1,0 +1,411 @@
+
+/* Our frameWork */
+
+body
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-color
+{
+  color: #f25454;
+}
+
+.parag{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  color: #666;
+}
+
+/* ************************* */
+
+.home
+{
+  background-image: url(../images/slideshow-1.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center center;
+}
+.navbar-light .navbar-nav .nav-link
+{
+  transition: all 0.5s;
+  font-size: 13px;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link:hover
+{
+  color:#f25454 !important;
+}
+
+ .nav-item.icon{
+  transition: all 0.5s ;
+  font-size: 16px;
+}
+
+ .nav-item.icon:hover
+{
+  color: #f25454 !important;
+}
+
+.caption .test
+{
+  margin-top: 265px;
+}
+.caption .test h1 
+{
+  font-size: 70px;
+}
+
+.settings .icon
+{
+  background-color: #1F2528;
+  color: white;
+  font-size: 25px;
+  top: 30%;
+  left: 0;
+}
+
+.settings .icon:hover
+{
+  background-color: #1f2530;
+}
+
+
+.cureser1
+{
+  padding: 3px 12px 0 10px;
+  position: absolute;
+  top: 50%;
+  left: 0; 
+  transition: all 0.5s;
+}
+
+.cureser2
+{
+  
+  padding: 3px 12px 0 10px;
+  position: absolute;
+  top: 55%;
+  left: 0; 
+  transition: all 0.5s;
+}
+
+.shape
+{
+  width: 25px;
+  height: 40px;
+
+}
+
+.cureser1:hover
+{
+  background-color: white;
+}
+.cureser1 .icon:hover
+{
+  color: #000 !important;
+}
+
+.cureser2:hover
+{
+  background-color: white;
+  color: #000 !important;
+}
+/*******************************************/
+
+.about h2
+{
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 38px;
+  position: relative;
+  right: 3%;
+}
+
+.about h2::before
+{
+  content: "A";
+  position: relative;
+  opacity: 0.2;
+  left: 10%;
+  font-size: 80px;
+}
+.line
+{
+  width: 40px;
+  height: 1%;
+  background-color: #1F2528;
+  margin: auto;
+  transition: all 0.5s ;
+}
+.caption:hover .line
+{
+  width: 60px;
+}
+
+.caption p
+{
+  font-family: 'Open Sans', sans-serif;  
+  font-size: 18px;
+  line-height: 25px;
+  color: #999;
+}
+
+
+.about .mainLine
+{
+  background-color: #f1f1f1;
+  height: 3%;
+}
+
+.about .line1
+{
+  width: 80% !important;
+  height: 100%;
+}
+
+.about .line2
+{
+  width: 95% !important;
+  height: 100%;
+}
+.about .line3
+{
+  width: 85% !important;
+  height: 100%;
+}
+.about .line4
+{
+  width: 70% !important;
+  height: 100%;
+}
+
+
+/****************************/
+
+
+
+.team > h2
+{
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 38px;
+  position: relative;
+  right: 3%;
+}
+
+.team > h2::before
+{
+  content: "O";
+  position: relative;
+  opacity: 0.2;
+  left: 11.5%;
+  font-size: 80px;
+}
+
+
+.team .member .member-img img{
+  transition: all 0.3s;
+}
+
+.team .member :hover .member-img img{
+  transform: scale(1.12);
+}
+.team .member .details
+{
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.member .details h4
+{
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.member .layer
+{
+  transform: translateY(10px);
+  transition: all 0.3s;
+  text-align: center;
+  background-color: #f25454;
+  height: 85%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+
+}
+
+.member:hover.layer
+{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+.word
+{
+  font-size: 32px;
+  line-height: 50px;
+  color: #282828;
+  font-weight: 400 !important;
+}
+
+
+/***************************************/
+
+.services  h2
+{
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 38px;
+  position: relative;
+  right: 3%;
+}
+
+.services  h2::before
+{
+  content: "S";
+  position: relative;
+  opacity: 0.2;
+  left: 10%;
+  font-size: 80px;
+}
+
+.services-icon {
+  color: #f25454;
+}
+
+
+.services-card h5
+{
+  transition: all 0.3s;
+}
+
+.services-card:hover h5{
+  color: #f25454;
+}
+
+
+
+.clients-review  h2
+{
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 38px;
+  position: relative;
+  right: 3%;
+  padding-bottom:10px ;
+}
+
+.clients-review  h2::before
+{
+  content: "S";
+  position: relative;
+  opacity: 0.2;
+  left: 15%;
+  font-size: 80px;
+}
+
+
+.clients-review .caption .line
+{
+  left: 1%;
+}
+
+.clients-review .clint
+{
+  width: 10%;
+}
+
+.clients-review q
+{
+  font-size: 25px;
+  line-height: 38px;
+  color: #666;
+}
+
+
+.contact .caption h2
+{
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 38px;
+  position: relative;
+  right: 3%;
+  padding-bottom:10px ;
+}
+
+.contcct .caption h2::before
+{
+  content: "G";
+  position: relative;
+  opacity: 0.2;
+  left: 14.5%;
+  font-size: 80px;
+}
+
+.contact-card h5
+{
+  transition: all 0.3s;
+}
+
+.contact-card:hover h5{
+  color: #f25454;
+}
+
+/**************************************/
+
+
+.foot
+{
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.foot .refresher
+{
+  background-color: rgba(242, 84, 84, 0.5);
+  opacity: 0.5;
+  position: absolute;
+    left: 48%;
+    bottom:96%;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 46px;
+    text-align: center;
+    cursor: pointer !important;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+.refresher:hover
+{
+  opacity: 1;
+}
+
+
+.foot .content a{
+  transition: all 0.3s;
+}
+
+.foot .content a:hover{
+  color: #f25454;
+}
